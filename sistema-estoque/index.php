@@ -33,10 +33,13 @@
 
                 <div class="form-group">
                     <label>Senha</label>
-                    input.brnbrn
+                    <input type="password" class="form-control" name="senha" placeholder="Digite a sua senha" autocomplete="off" />
                 </div>
-
+                <button type="submit" class="btn btn-sucess btn-sm btn-block">Entrar</button>
+                <br>
+                <p class="d-flex justifiy-content-center">Não possui cadastro?<span style="width:5px"></span><a href="cadastrar_usuario_externo.php">Clique aqui</a></p>
             </form>
         </div>
+        <?php include_once('util/footer.php'); ?>
     </body>
 </html>
